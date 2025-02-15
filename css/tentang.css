@@ -144,6 +144,10 @@ td img {
     margin: 20px;
   }
 
+  .footer-left p {
+    padding: 0px 10px 0px 10px;
+  }
+
   .header1 {
     padding-top: 10px;
     border-bottom: 2px solid #1e90ff;

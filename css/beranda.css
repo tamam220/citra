@@ -42,7 +42,7 @@
 
 .nav {
   margin-top: auto;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #606060;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -76,6 +76,10 @@
 }
 
 @media (max-width: 700px) {
+  .head {
+    height: 93.5dvh;
+  }
+
   .nav {
     /* margin-top:2dvh; */
     position: fixed;
@@ -92,7 +96,21 @@
     font-size: 3em;
   }
 
+  .nav {
+    justify-content: center;
+  }
+
   .nav li {
-    font-size: 50%;
+    margin: 5px auto;
+    padding: 5px;
+  }
+
+  .nav li {
+    font-size: 75%;
+  }
+
+  .nav img {
+    width: 25px;
+    height: 25px;
   }
 }

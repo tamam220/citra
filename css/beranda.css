@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: center;
-  height: 90dvh;
+  height: 95dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,12 +72,25 @@
 }
 
 .nav a:hover {
-  color: #ededed;
+  color: #eaeaea;
+}
+
+.nav {
+  /* margin-top:2dvh; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+li:hover {
+  border-bottom: 5px solid #1e90ff;
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 700px) {
   .head {
-    height: 93.5dvh;
+    height: 100dvh;
   }
 
   .nav {

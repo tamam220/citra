@@ -50,49 +50,38 @@
 }
 
 .header h1 {
+  color: black;
   margin: 40px;
   border-bottom: 5px solid #1e90ff;
 }
 
-table {
-  border-spacing: 20px;
-}
-
-td img {
-  width: 100%;
-}
-
-.footer {
+.container {
+  margin: 0px auto;
+  width: 85%;
   display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(228, 255, 255, 1) 44%,
-    rgba(158, 248, 255, 1) 100%
-  );
+  flex-wrap: wrap;
 }
 
-.footer-left {
-  margin: 5%;
-  width: 50%;
+.wrap {
+  max-width: 23%;
+  /* border: 2px solid #1e90ff; */
   text-align: center;
+  margin: 20px;
+  /* border-radius: 20px; */
 }
 
-.footer-right {
-  width: 50%;
+.wrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
 }
 
-.footer-right img {
-  width: 60%;
-}
-
-.header1 {
-  border-bottom: 2px solid #1e90ff;
-  margin-bottom: 20px;
+.wrap img {
+  padding: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 @media (max-width: 700px) {
@@ -102,58 +91,6 @@ td img {
 
   .nav li {
     font-size: 50%;
-  }
-
-  td h1 {
-    font-size: 100%;
-  }
-
-  td p {
-    font-size: 90%;
-    text-align: justify;
-  }
-
-  td img {
-    width: 10vh;
-  }
-
-  td li {
-    font-size: 90%;
-  }
-
-  .footer-right {
-    margin-left: 15%;
-  }
-
-  .footer {
-    text-align: center;
-    display: block;
-    font-size: 75%;
-  }
-
-  .footer-left {
-    width: 100%;
-    margin: auto;
-  }
-
-  .footer-right {
-    width: 100%;
-    margin: auto;
-  }
-
-  .footer-right img {
-    width: 30%;
-    margin: 20px;
-  }
-
-  .footer-left p {
-    padding: 0px 10px 0px 10px;
-  }
-
-  .header1 {
-    padding-top: 10px;
-    border-bottom: 2px solid #1e90ff;
-    margin-bottom: 5px;
   }
 
   .nav {
@@ -172,5 +109,21 @@ td img {
   .nav img {
     width: 40px;
     height: 40px;
+  }
+
+  .wrap {
+    max-width: 30%;
+  }
+
+  .wrap img {
+    /* padding: 20px; */
+    color: white;
+    font-weight: bold;
+    width: 140%;
+    border-radius: 25px;
+  }
+
+  .container {
+    width: 100%;
   }
 }

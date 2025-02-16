@@ -9,7 +9,7 @@
 
 .nav {
   margin-top: auto;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #606060;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,9 +38,6 @@
 
 .nav a:hover {
   color: #ededed;
-}
-
-.wrap {
 }
 
 .header {

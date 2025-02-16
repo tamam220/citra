@@ -103,7 +103,7 @@ td img {
   }
 
   td h1 {
-    font-size: 90%;
+    font-size: 100%;
   }
 
   td p {
@@ -126,7 +126,7 @@ td img {
   .footer {
     text-align: center;
     display: block;
-    font-size: 50%;
+    font-size: 75%;
   }
 
   .footer-left {
@@ -152,5 +152,23 @@ td img {
     padding-top: 10px;
     border-bottom: 2px solid #1e90ff;
     margin-bottom: 5px;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav li {
+    margin: 5px auto;
+    padding: 5px;
+  }
+
+  .nav li {
+    font-size: 75%;
+  }
+
+  .nav img {
+    width: 40px;
+    height: 40px;
   }
 }

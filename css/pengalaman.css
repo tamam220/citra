@@ -67,7 +67,12 @@ body {
 }
 
 .wrap {
-  background-color: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(228, 255, 255, 0.2) 44%,
+    rgba(158, 248, 255, 0.2) 100%
+  );
   width: 100%;
   padding: 30px;
 }
@@ -126,8 +131,9 @@ body {
     /* list-style-image: url(../img/icon/icons8-checkbox-8.png); */
     width: 0px auto;
     margin: 0px auto;
-    font-weight: bold;
+    font-weight: none;
     font-size: 1em;
+
     /* padding-left: 5%; */
   }
 }

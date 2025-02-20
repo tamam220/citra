@@ -89,4 +89,9 @@
     line-height: 20px;
     font-size: 0.8em;
   }
+
+  .nav a {
+    font-family: arial;
+    font-size: 90%;
+  }
 }

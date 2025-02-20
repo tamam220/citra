@@ -9,7 +9,7 @@
 .head {
   background-image: url("../img/halaman1/bg.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: center;
   height: 95dvh;
   display: flex;
@@ -21,9 +21,9 @@
   background: rgb(35, 180, 255);
   background: linear-gradient(
     180deg,
-    rgba(35, 180, 255, 0.5) 0%,
-    rgba(217, 241, 255, 0.5) 35%,
-    rgba(255, 255, 255, 0.5) 71%
+    rgba(35, 180, 255, 0.6) 0%,
+    rgba(217, 241, 255, 0.6) 35%,
+    rgba(255, 255, 255, 0.6) 71%
   );
   width: 100%;
   text-align: center;
@@ -65,6 +65,8 @@
 
 .nav a {
   color: white;
+  font-family: "Poppins";
+  font-weight: 300;
 }
 
 .nav-beranda {
@@ -125,5 +127,14 @@ li:hover {
   .nav img {
     width: 25px;
     height: 25px;
+  }
+
+  .nav a {
+    font-family: arial;
+    font-size: 90%;
+  }
+
+  .head {
+    background-size: cover;
   }
 }

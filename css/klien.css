@@ -3,11 +3,14 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: arial;
+  font-family: "Times New Roman";
   box-sizing: border-box;
 }
 
 .nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   margin-top: auto;
   background-color: #606060;
   display: flex;
@@ -30,6 +33,8 @@
 
 .nav a {
   color: white;
+  font-family: "Poppins";
+  font-weight: 300;
 }
 
 .nav-beranda {
@@ -46,6 +51,7 @@
 }
 
 .header {
+  margin-top: 15vh;
   text-align: center;
 }
 
@@ -58,7 +64,7 @@
 body {
   background-image: url("../img/halaman4/bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: center;
 }
 
@@ -202,7 +208,7 @@ body {
   }
 
   .footer {
-    height: 12dvh;
+    max-height: 12dvh;
   }
 
   .carousel img {
@@ -214,5 +220,10 @@ body {
     width: 20px;
     line-height: 20px;
     font-size: 0.8em;
+  }
+
+  .nav a {
+    font-family: arial;
+    font-size: 90%;
   }
 }

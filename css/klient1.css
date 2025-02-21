@@ -94,4 +94,8 @@
     font-family: arial;
     font-size: 90%;
   }
+
+  .header {
+    margin-top: 11vh;
+  }
 }

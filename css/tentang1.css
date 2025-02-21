@@ -329,4 +329,12 @@ button:hover {
     /* box-sizing: content-box; */
     /* padding-top: 10px; */
   }
+
+  .header {
+    margin-top: 11vh;
+  }
+
+  .container > img {
+    height: 35vh;
+  }
 }
